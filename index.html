@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raw NodeJS | Wahid Hasan</title>
+</head>
+<body style="width: 300px; margin: auto">
+    <h1 style="text-align: center">Enter Your Details</h1>
+    <form action="/completed" method="post" enctype="multipart/form-data">
+      <label for="fName">First Name:</label><br/>
+      <input type="text" name="fName" placeholder="Enter your first name......."/><br/>
+      <label for="lName">Last Name:</label><br/>
+      <input type="text" name="lName" placeholder="Enter your last name......."/><br/>
+      <label for="email">Email:</label><br/>
+      <input type="text" name="email" placeholder="Enter your email......."/><br/>
+      <label for="address">Address:</label><br/>
+      <input type="text" name="address" placeholder="Enter your address......."/><br/>
+      <label for="number">Phone-No:</label><br/>
+      <input type="number" name="phoneNumber" placeholder="Enter your phone number......."/><br/>
+      <label for="dateOfBirth">Date Of Birth:</label><br/>
+      <input type="date" name="dateOfBirth"/><br/>
+      <label for="bio">Bio:</label><br/>
+      <textarea name="bio"placeholder="Enter your bio here......."></textarea><br/>
+      <label for="file">Profile Picture:</label><br/>
+      <input type="file" name="photo" /><br/>
+      <br/>
+      <input type="submit" value="send" />
+    </form>
+</body>
+</html>
